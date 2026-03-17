@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <name>Get tangent lines</name>
+    <id>org.example.tangent_lines_ui</id>
+
+    <param name="line_type" type="optiongroup" appearance="combo" gui-text="Tangent type:">
+        <option value="external">External</option>
+        <option value="internal">Internal</option>
+    </param>
+    
+    <label>Style</label>
+    <param name="use_custom_style" type="bool" gui-text="Use custom style">false</param>
+        <param name="custom_width" type="float" min="1" max="2000" gui-text="    Width (px):">1.0</param>
+    <param name="line_cap" type="optiongroup" appearance="combo" gui-text="    Line cap:">
+        <option value="butt">Butt</option>
+        <option value="round">Round</option>
+        <option value="square">Square</option>
+    </param>
+    
+    <effect>
+        <object-type>all</object-type>
+        <effects-menu>
+            <submenu name="Line"/>
+        </effects-menu>
+    </effect>
+    <script>
+        <command location="inx" interpreter="python">tangent_lines.py</command>
+    </script>
+</inkscape-extension>
