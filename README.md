@@ -1,7 +1,7 @@
 Put getTangentLines folder into Inkscape extension directory 
 ordinary  
-windows: C:\Users\[yourUsername]\AppData\Roaming\inkscape\extensions  
-mac, linux: ~/.config/inkscape/extensions  
+[windows] C:\Users\[yourUsername]\AppData\Roaming\inkscape\extensions  
+[mac, linux] ~/.config/inkscape/extensions  
   
 How to use this  
   
