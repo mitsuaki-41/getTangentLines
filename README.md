@@ -11,3 +11,9 @@ Ordinary...
 How to use this->  
   
 ![Image](https://github.com/user-attachments/assets/ad6f13a4-a97b-4d71-8ec3-6846b99924f7)  
+
+Known error: import tinycss2ModuleNotFoundError: No module named 'tinycss2'  
+If you encounter an error related to tinycss2, you will need to install it using the following command.  
+&emsp;pip install tinycss2  
+or debian based linux distribution:
+&emsp;sudo apt install python3-tinycss2  
