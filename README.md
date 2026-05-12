@@ -15,5 +15,5 @@ How to use this->
 Known error: import tinycss2ModuleNotFoundError: No module named 'tinycss2'  
 If you encounter an error related to tinycss2, you will need to install it using the following command.  
 &emsp;pip install tinycss2  
-or debian based linux distribution:
+or debian based linux distribution:  
 &emsp;sudo apt install python3-tinycss2  
